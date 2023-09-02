@@ -1,0 +1,173 @@
+/* Add your existing CSS rules here */
+
+/* Global Styles */
+body {
+  font-family: 'Crimson Pro', serif;
+  font-size: 2rem;
+  line-height: 2.5;
+  margin: 0;
+  padding: 0;
+  background-color: #ff4c68;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar-brand {
+  color: white;
+}
+
+/* Title Section */
+#title {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+
+.meet {
+  text-align: center;
+  margin: 0;
+}
+
+.download {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.title-image {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Features Section */
+#features {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;
+}
+
+h3 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.5rem;
+  padding-top: 15px;
+}
+
+/* Testimonials Section */
+#testimonials {
+  padding: 7%;
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-inner img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* Press Section */
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.press-logo {
+  width: 150px;
+  margin: 0 10px;
+}
+
+/* Pricing Section */
+#pricing {
+  text-align: center;
+  padding: 7% 0;
+}
+
+.card-heading {
+  margin: 0 auto 40px;
+}
+
+/* Call to Action Section */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 0;
+}
+
+/* Footer Section */
+#footer,
+#footer-social {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#footer p {
+  margin: 0;
+}
+
+#footer-social a {
+  margin: 0 10px;
+  color: white;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .meet {
+      text-align: center;
+  }
+  .download {
+      text-align: center;
+      margin-top: 20px;
+  }
+  .title-image {
+      width: 100%;
+      max-width: 400px;
+      display: block;
+      /* margin: 0 auto; */
+      margin-top: 20px; 
+  }
+  
+}
+
+@media (max-width: 576px) {
+  ul {
+      padding-left: 0;
+      justify-content: center;
+      margin-top: 20px;
+  }
+  a {
+      padding-left: 0;
+  }
+  #title {
+      padding: 5% 10%;
+  }
+  .navbar {
+      margin-bottom: 30px;
+  }
+  .navbar-brand {
+      font-size: 1.5rem;
+  }
+  #press {
+      margin-bottom: 20px;
+  }
+  #footer-social {
+      margin-left: 0;
+      justify-content: center;
+  }
+  #footer {
+      margin-left: 0;
+      text-align: center;
+  }
+}

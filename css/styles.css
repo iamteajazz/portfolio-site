@@ -1,0 +1,214 @@
+
+* {
+  /* margin: 0; */
+  padding: 0;
+  
+}
+
+
+body { background-color: inherit;
+  margin-top: 0px;
+
+text-align: center;
+margin-bottom: 50px;
+margin: 0;
+
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color:rgba(95, 86, 87, 0.468);
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  position: fixed;
+  top: 0;
+  
+}
+header .github {
+  float: right;
+  margin: 20px;
+}
+
+header a {
+  float: left;
+}
+
+header a:hover {
+  color: antiquewhite;
+}
+
+#logo {
+  /* aspect-ratio: 35 / 4; */
+  padding: 0.4rem;
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+  
+}
+
+.contact-me {
+  margin-bottom: 25px;
+}
+
+main {
+  margin-top: 80px;
+}
+
+.middle-container h2 {
+  color: rgba(95, 86, 87, 0.468);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.skill-row img{
+  width: 90%;
+  
+}
+.profile  h2 {
+  text-decoration: none;
+  color: darkcyan;
+  
+} 
+.meet {
+  margin-left: 20px;
+}
+
+.profile p {
+  color: rgb(13, 169, 122);
+}
+
+.skills {
+  margin: 50px;
+  background-color: #2980b9;
+}
+  hr {
+    border-style: inset;
+    border-width: 2px;
+    border-color: darkcyan;
+ }
+
+.skillz {
+  background-image: url(../image/DotsLines_24fps-1.gif);
+}
+.skills h2 {
+  color: rgb(13, 169, 122);
+  padding: 10px;
+}
+
+h1 {
+  font-family: cursive;
+  line-height: 2;
+}
+
+.mountain {
+  margin-top: 0px;
+  background-color: inherit;
+  
+
+}
+.sub_main {
+  background-color: azure;
+}
+
+.cloud-botton {
+position: absolute;
+margin-left: 300px;
+}
+
+.cloud {
+  margin-left: 500px;
+  margin-top: 50px;
+}
+
+
+.middle-container {
+  margin:20px; 
+  background-color: aliceblue;
+  
+}
+.middle-container p {
+  color: #939588;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+.bottom-container {
+margin-top: 1em;
+display: inline-table;
+
+}
+
+
+
+.copyright {
+  margin-top: auto;
+  background-color: red;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #000a0f;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+a :hover {
+  cursor: pointer;
+  /* max-width: 2px; */
+  opacity: 0.6;
+}
+
+footer {
+  background-color: #2a2a40;
+  margin-bottom: 20px;
+  height: 70px; 
+}
+
+
+footer,
+footer a {
+  color: white;
+}
+
+address {
+  text-align: center;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 2px;
+  height: 2px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}

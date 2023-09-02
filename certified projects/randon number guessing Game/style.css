@@ -1,0 +1,29 @@
+* {
+    background-color: aliceblue;
+}
+
+p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: cornflowerblue;
+    
+}
+
+#guessField {
+    margin-left: 420px;
+    width: 400px;
+    height: 20px;
+}
+
+.guessSubmit {
+    margin-top: 20px;
+    width: 100px;
+    height: 20px;
+    margin-left: 50px;
+} 
+
+footer {
+    text-align: center;
+    margin-top: 350px;
+}
