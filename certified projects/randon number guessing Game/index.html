@@ -4,39 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Guessing Game</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
-<p>Random Guess !!! </p>
-<p>If your Guess the inputed number right, YOU WIN!!!</p>
-<P>Enter you input between 1- 100 Below ⤵️</P>
+    <header>
+        <h1>Random Number Guessing Game</h1>
+    </header>
 
-  <div class="form">
-    <label for="guessField"> </label>
-    <input type="number" min="1" max="100" required id="guessField" class="guessField">
-    <input type="submit" value="Submit guess" class="guessSubmit">
-  </div>
+    <div class="game-container">
+        <p>Can you guess the correct number?</p>
+        <p>Enter a number between 1 and 100:</p>
 
+        <div class="form">
+            <input type="number" min="1" max="100" required id="guessField" class="guessField">
+            <button type="button" class="guessSubmit">Submit Guess</button>
+        </div>
 
-  <div class="resultParas">
-    <p class="guesses"></p>
-    <p class="lastResult"></p>
-    <p class="lowOrHi"></p>
-  </div> 
+        <div class="resultParas">
+            <p class="guesses"></p>
+            <p class="lastResult"></p>
+            <p class="lowOrHi"></p>
+        </div>
+    </div>
 
+    <footer>
+        &copy; 2023 Trustenable Technologies. All Rights Reserved.
+    </footer>
 
-
-
-
-
-  <footer>
-    All Right Reserved @Trustenable Technologies.
-  </footer>
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-<script src="./index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>
