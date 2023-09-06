@@ -1,37 +1,29 @@
-.container {
-  width: 70%;
-  margin: auto;
+body {
+  font-family: 'Lobster', cursive;
+  background-color: #232931;
+  color: #EEEEEE;
+  margin: 0;
+  padding: 0;
+}
+
+header {
   text-align: center;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
 }
 
 .dice {
   text-align: center;
-  display: inline-block;
-
+  margin: 20px;
 }
-
-body {
-  background-image: url(./images/Dice_\(504524747\).jpeg);
-
-}
-
-a {
-  margin: 30px;
-  font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #232931;
-  font-size: 5rem;
-  /* color: #4ECCA3; */
-  color: goldenrod;
-}
-
-h1 {
-  margin: 30px;
-  font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #232931;
-  font-size: 8rem;
-  color: goldenrod;
-}
-
 
 p {
   font-size: 2rem;
@@ -40,13 +32,30 @@ p {
 }
 
 img {
-  width: 80%;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+button#rollButton {
+  background-color: #4ECCA3;
+  color: #232931;
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+  border: none;
+  padding: 10px 20px;
+  margin: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button#rollButton:hover {
+  background-color: #46B29D;
 }
 
 footer {
-  margin-top: 5%;
-  color: #EEEEEE;
   text-align: center;
+  padding: 20px;
+  background-color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
-
 }
