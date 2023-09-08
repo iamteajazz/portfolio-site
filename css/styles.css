@@ -8,7 +8,7 @@
 /* Global Styles */
 body {
   font-family: 'Kaushan Script', cursive;
-  background-color: #f0f0f0;
+  background-color: azure;
   text-align: center;
   margin-bottom: 50px;
   
@@ -62,6 +62,8 @@ header nav a {
   text-align: center;
 }
 
+
+
 .info h1 {
   font-size: 36px;
   margin-top: 20px;
@@ -76,12 +78,19 @@ header nav a {
 .profile {
   margin-top: 20px;
   padding: 20px 0;
-  background-color: rgba(44, 40, 65, 1);
+  width: 89%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.profile :hover {
+  cursor: pointer;
+  transform: scale(1.08);
 }
 
 .profile a {
   color: black;
-  background-color: rgba(6, 150, 222, 1);
   border-radius: 2px;
   text-size-adjust: 50%;
   
@@ -119,8 +128,8 @@ header nav a {
 
 /* Button Styles */
 .btn {
-  background: #3498db;
-  color: #000a0f;
+  background:  rgba(44, 40, 65, 1);
+  color: white;
   font-size: 15px;
   padding: 10px 20px;
   text-decoration: none;
@@ -129,7 +138,8 @@ header nav a {
 }
 
 .btn:hover {
-  background: #3cb0fd;
+  background: #072e48;
+  transform: scale(2.03);
 }
 
 .contact-me {
