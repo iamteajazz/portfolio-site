@@ -155,6 +155,7 @@ footer {
 
 footer a {
   color: white;
+  text-decoration: none;
 }
 
 .social-icons {
