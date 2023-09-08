@@ -76,7 +76,15 @@ header nav a {
 .profile {
   margin-top: 20px;
   padding: 20px 0;
-  background-color: white;
+  background-color: rgba(44, 40, 65, 1);
+}
+
+.profile a {
+  color: black;
+  background-color: rgba(6, 150, 222, 1);
+  border-radius: 2px;
+  text-size-adjust: 50%;
+  
 }
 
 .profile h2 {
